@@ -1,4 +1,4 @@
-//this is the code for linearsearching in a given array
+//this is the code for linearsearching in a given array.
 public class arrays{
    public static int linearsearch(int numbers[],int key){
    for(int i=0;i<numbers.length;i++){
