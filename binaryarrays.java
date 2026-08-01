@@ -1,5 +1,6 @@
-public class arrays{
-    public static int binarsearch(int numbers[],int key){
+public class binaryarrays {
+  
+    public static int binarysearch(int numbers[],int key){
     int start=0,end=numbers.length-1;
     while(start<=end){
         int mid=(start+end)/2;
@@ -24,5 +25,8 @@ public class arrays{
     public static void main(String[] args) {
         int numbers[]={2,4,6,8,10,12};
         int key=10;
+        System.out.println("the key is at ="+binarysearch(numbers, key));
+     
     }
 }
+
